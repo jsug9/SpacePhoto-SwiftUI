@@ -8,22 +8,121 @@
 
 /* Begin PBXBuildFile section */
 		149E8CD425E5EA0000515DD0 /* SpacePhoto_SUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CD325E5EA0000515DD0 /* SpacePhoto_SUIApp.swift */; };
-		149E8CD625E5EA0000515DD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CD525E5EA0000515DD0 /* ContentView.swift */; };
+		149E8CD625E5EA0000515DD0 /* PhotoInfoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CD525E5EA0000515DD0 /* PhotoInfoDetail.swift */; };
 		149E8CD825E5EA0300515DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149E8CD725E5EA0300515DD0 /* Assets.xcassets */; };
 		149E8CDB25E5EA0300515DD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149E8CDA25E5EA0300515DD0 /* Preview Assets.xcassets */; };
+		149E8CE425E5EA2800515DD0 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CE325E5EA2800515DD0 /* PhotoInfo.swift */; };
+		149E8CE725E5EA4200515DD0 /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CE625E5EA4200515DD0 /* PhotoInfoController.swift */; };
+		149E8CEC25E5FD0F00515DD0 /* ChooseDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CEB25E5FD0F00515DD0 /* ChooseDate.swift */; };
+		14AE0E7125E621B7006485DA /* MacSpacePhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE0E7025E621B7006485DA /* MacSpacePhotoApp.swift */; };
+		14AE0E7525E621BB006485DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AE0E7425E621BB006485DA /* Assets.xcassets */; };
+		14AE0E7825E621BB006485DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AE0E7725E621BB006485DA /* Preview Assets.xcassets */; };
+		14AE0E8025E621E3006485DA /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CE625E5EA4200515DD0 /* PhotoInfoController.swift */; };
+		14AE0E8325E621E6006485DA /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CE325E5EA2800515DD0 /* PhotoInfo.swift */; };
+		14AE0E8625E621EE006485DA /* PhotoInfoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CD525E5EA0000515DD0 /* PhotoInfoDetail.swift */; };
+		14AE0E8925E621F2006485DA /* ChooseDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E8CEB25E5FD0F00515DD0 /* ChooseDate.swift */; };
+		14AE0E9425E62297006485DA /* WatchSpacePhoto WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 14AE0E9325E62297006485DA /* WatchSpacePhoto WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		14AE0E9925E6229B006485DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AE0E9825E6229B006485DA /* Assets.xcassets */; };
+		14AE0EA025E6229B006485DA /* WatchSpacePhoto WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 14AE0E9F25E6229B006485DA /* WatchSpacePhoto WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		14AE0EA525E6229B006485DA /* SpacePhoto_SUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE0EA425E6229B006485DA /* SpacePhoto_SUIApp.swift */; };
+		14AE0EA725E6229B006485DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE0EA625E6229B006485DA /* ContentView.swift */; };
+		14AE0EA925E6229B006485DA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE0EA825E6229B006485DA /* NotificationController.swift */; };
+		14AE0EAB25E6229B006485DA /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE0EAA25E6229B006485DA /* NotificationView.swift */; };
+		14AE0EAD25E6229B006485DA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE0EAC25E6229B006485DA /* ComplicationController.swift */; };
+		14AE0EAF25E6229F006485DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AE0EAE25E6229F006485DA /* Assets.xcassets */; };
+		14AE0EB225E6229F006485DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AE0EB125E6229F006485DA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14AE0E9525E62297006485DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149E8CC825E5EA0000515DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14AE0E9225E62297006485DA;
+			remoteInfo = "WatchSpacePhoto WatchKit App";
+		};
+		14AE0EA125E6229B006485DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149E8CC825E5EA0000515DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14AE0E9E25E6229B006485DA;
+			remoteInfo = "WatchSpacePhoto WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14AE0EB725E6229F006485DA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				14AE0E9425E62297006485DA /* WatchSpacePhoto WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE0EBA25E6229F006485DA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				14AE0EA025E6229B006485DA /* WatchSpacePhoto WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		149E8CD025E5EA0000515DD0 /* SpacePhoto SUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpacePhoto SUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		149E8CD325E5EA0000515DD0 /* SpacePhoto_SUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePhoto_SUIApp.swift; sourceTree = "<group>"; };
-		149E8CD525E5EA0000515DD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		149E8CD525E5EA0000515DD0 /* PhotoInfoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoDetail.swift; sourceTree = "<group>"; };
 		149E8CD725E5EA0300515DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		149E8CDA25E5EA0300515DD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		149E8CDC25E5EA0300515DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149E8CE325E5EA2800515DD0 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		149E8CE625E5EA4200515DD0 /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
+		149E8CEB25E5FD0F00515DD0 /* ChooseDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDate.swift; sourceTree = "<group>"; };
+		14AE0E6E25E621B7006485DA /* MacSpacePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSpacePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AE0E7025E621B7006485DA /* MacSpacePhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSpacePhotoApp.swift; sourceTree = "<group>"; };
+		14AE0E7425E621BB006485DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14AE0E7725E621BB006485DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14AE0E7925E621BB006485DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE0E7A25E621BB006485DA /* MacSpacePhoto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacSpacePhoto.entitlements; sourceTree = "<group>"; };
+		14AE0E9025E62297006485DA /* WatchSpacePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSpacePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AE0E9325E62297006485DA /* WatchSpacePhoto WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchSpacePhoto WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AE0E9825E6229B006485DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14AE0E9A25E6229B006485DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE0E9F25E6229B006485DA /* WatchSpacePhoto WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchSpacePhoto WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AE0EA425E6229B006485DA /* SpacePhoto_SUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePhoto_SUIApp.swift; sourceTree = "<group>"; };
+		14AE0EA625E6229B006485DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14AE0EA825E6229B006485DA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		14AE0EAA25E6229B006485DA /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		14AE0EAC25E6229B006485DA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		14AE0EAE25E6229F006485DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14AE0EB125E6229F006485DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14AE0EB325E6229F006485DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE0EB425E6229F006485DA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		149E8CCD25E5EA0000515DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE0E6B25E621B7006485DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE0E9C25E6229B006485DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				149E8CD225E5EA0000515DD0 /* SpacePhoto SUI */,
+				14AE0E6F25E621B7006485DA /* MacSpacePhoto */,
+				14AE0E9725E62297006485DA /* WatchSpacePhoto WatchKit App */,
+				14AE0EA325E6229B006485DA /* WatchSpacePhoto WatchKit Extension */,
 				149E8CD125E5EA0000515DD0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +147,10 @@
 			isa = PBXGroup;
 			children = (
 				149E8CD025E5EA0000515DD0 /* SpacePhoto SUI.app */,
+				14AE0E6E25E621B7006485DA /* MacSpacePhoto.app */,
+				14AE0E9025E62297006485DA /* WatchSpacePhoto.app */,
+				14AE0E9325E62297006485DA /* WatchSpacePhoto WatchKit App.app */,
+				14AE0E9F25E6229B006485DA /* WatchSpacePhoto WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +159,10 @@
 			isa = PBXGroup;
 			children = (
 				149E8CD325E5EA0000515DD0 /* SpacePhoto_SUIApp.swift */,
-				149E8CD525E5EA0000515DD0 /* ContentView.swift */,
+				149E8CE325E5EA2800515DD0 /* PhotoInfo.swift */,
+				149E8CE625E5EA4200515DD0 /* PhotoInfoController.swift */,
+				149E8CEB25E5FD0F00515DD0 /* ChooseDate.swift */,
+				149E8CD525E5EA0000515DD0 /* PhotoInfoDetail.swift */,
 				149E8CD725E5EA0300515DD0 /* Assets.xcassets */,
 				149E8CDC25E5EA0300515DD0 /* Info.plist */,
 				149E8CD925E5EA0300515DD0 /* Preview Content */,
@@ -65,6 +174,59 @@
 			isa = PBXGroup;
 			children = (
 				149E8CDA25E5EA0300515DD0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14AE0E6F25E621B7006485DA /* MacSpacePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				14AE0E7025E621B7006485DA /* MacSpacePhotoApp.swift */,
+				14AE0E7425E621BB006485DA /* Assets.xcassets */,
+				14AE0E7925E621BB006485DA /* Info.plist */,
+				14AE0E7A25E621BB006485DA /* MacSpacePhoto.entitlements */,
+				14AE0E7625E621BB006485DA /* Preview Content */,
+			);
+			path = MacSpacePhoto;
+			sourceTree = "<group>";
+		};
+		14AE0E7625E621BB006485DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14AE0E7725E621BB006485DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14AE0E9725E62297006485DA /* WatchSpacePhoto WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				14AE0E9825E6229B006485DA /* Assets.xcassets */,
+				14AE0E9A25E6229B006485DA /* Info.plist */,
+			);
+			path = "WatchSpacePhoto WatchKit App";
+			sourceTree = "<group>";
+		};
+		14AE0EA325E6229B006485DA /* WatchSpacePhoto WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				14AE0EA425E6229B006485DA /* SpacePhoto_SUIApp.swift */,
+				14AE0EA625E6229B006485DA /* ContentView.swift */,
+				14AE0EA825E6229B006485DA /* NotificationController.swift */,
+				14AE0EAA25E6229B006485DA /* NotificationView.swift */,
+				14AE0EAC25E6229B006485DA /* ComplicationController.swift */,
+				14AE0EAE25E6229F006485DA /* Assets.xcassets */,
+				14AE0EB325E6229F006485DA /* Info.plist */,
+				14AE0EB425E6229F006485DA /* PushNotificationPayload.apns */,
+				14AE0EB025E6229F006485DA /* Preview Content */,
+			);
+			path = "WatchSpacePhoto WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		14AE0EB025E6229F006485DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14AE0EB125E6229F006485DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -89,6 +251,74 @@
 			productReference = 149E8CD025E5EA0000515DD0 /* SpacePhoto SUI.app */;
 			productType = "com.apple.product-type.application";
 		};
+		14AE0E6D25E621B7006485DA /* MacSpacePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE0E7B25E621BB006485DA /* Build configuration list for PBXNativeTarget "MacSpacePhoto" */;
+			buildPhases = (
+				14AE0E6A25E621B7006485DA /* Sources */,
+				14AE0E6B25E621B7006485DA /* Frameworks */,
+				14AE0E6C25E621B7006485DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacSpacePhoto;
+			productName = MacSpacePhoto;
+			productReference = 14AE0E6E25E621B7006485DA /* MacSpacePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14AE0E8F25E62297006485DA /* WatchSpacePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE0EBF25E6229F006485DA /* Build configuration list for PBXNativeTarget "WatchSpacePhoto" */;
+			buildPhases = (
+				14AE0E8E25E62297006485DA /* Resources */,
+				14AE0EB725E6229F006485DA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14AE0E9625E62297006485DA /* PBXTargetDependency */,
+			);
+			name = WatchSpacePhoto;
+			productName = WatchSpacePhoto;
+			productReference = 14AE0E9025E62297006485DA /* WatchSpacePhoto.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		14AE0E9225E62297006485DA /* WatchSpacePhoto WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE0EBE25E6229F006485DA /* Build configuration list for PBXNativeTarget "WatchSpacePhoto WatchKit App" */;
+			buildPhases = (
+				14AE0E9125E62297006485DA /* Resources */,
+				14AE0EBA25E6229F006485DA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14AE0EA225E6229B006485DA /* PBXTargetDependency */,
+			);
+			name = "WatchSpacePhoto WatchKit App";
+			productName = "WatchSpacePhoto WatchKit App";
+			productReference = 14AE0E9325E62297006485DA /* WatchSpacePhoto WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		14AE0E9E25E6229B006485DA /* WatchSpacePhoto WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE0EBD25E6229F006485DA /* Build configuration list for PBXNativeTarget "WatchSpacePhoto WatchKit Extension" */;
+			buildPhases = (
+				14AE0E9B25E6229B006485DA /* Sources */,
+				14AE0E9C25E6229B006485DA /* Frameworks */,
+				14AE0E9D25E6229B006485DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchSpacePhoto WatchKit Extension";
+			productName = "WatchSpacePhoto WatchKit Extension";
+			productReference = 14AE0E9F25E6229B006485DA /* WatchSpacePhoto WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,9 +326,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					149E8CCF25E5EA0000515DD0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					14AE0E6D25E621B7006485DA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					14AE0E8F25E62297006485DA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					14AE0E9225E62297006485DA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					14AE0E9E25E6229B006485DA = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -117,6 +359,10 @@
 			projectRoot = "";
 			targets = (
 				149E8CCF25E5EA0000515DD0 /* SpacePhoto SUI */,
+				14AE0E6D25E621B7006485DA /* MacSpacePhoto */,
+				14AE0E8F25E62297006485DA /* WatchSpacePhoto */,
+				14AE0E9225E62297006485DA /* WatchSpacePhoto WatchKit App */,
+				14AE0E9E25E6229B006485DA /* WatchSpacePhoto WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +377,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14AE0E6C25E621B7006485DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE0E7825E621BB006485DA /* Preview Assets.xcassets in Resources */,
+				14AE0E7525E621BB006485DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE0E8E25E62297006485DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE0E9125E62297006485DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE0E9925E6229B006485DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE0E9D25E6229B006485DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE0EB225E6229F006485DA /* Preview Assets.xcassets in Resources */,
+				14AE0EAF25E6229F006485DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +417,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149E8CD625E5EA0000515DD0 /* ContentView.swift in Sources */,
+				149E8CE425E5EA2800515DD0 /* PhotoInfo.swift in Sources */,
+				149E8CEC25E5FD0F00515DD0 /* ChooseDate.swift in Sources */,
+				149E8CE725E5EA4200515DD0 /* PhotoInfoController.swift in Sources */,
+				149E8CD625E5EA0000515DD0 /* PhotoInfoDetail.swift in Sources */,
 				149E8CD425E5EA0000515DD0 /* SpacePhoto_SUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14AE0E6A25E621B7006485DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE0E8325E621E6006485DA /* PhotoInfo.swift in Sources */,
+				14AE0E7125E621B7006485DA /* MacSpacePhotoApp.swift in Sources */,
+				14AE0E8625E621EE006485DA /* PhotoInfoDetail.swift in Sources */,
+				14AE0E8925E621F2006485DA /* ChooseDate.swift in Sources */,
+				14AE0E8025E621E3006485DA /* PhotoInfoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE0E9B25E6229B006485DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE0EA925E6229B006485DA /* NotificationController.swift in Sources */,
+				14AE0EA725E6229B006485DA /* ContentView.swift in Sources */,
+				14AE0EAD25E6229B006485DA /* ComplicationController.swift in Sources */,
+				14AE0EA525E6229B006485DA /* SpacePhoto_SUIApp.swift in Sources */,
+				14AE0EAB25E6229B006485DA /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14AE0E9625E62297006485DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14AE0E9225E62297006485DA /* WatchSpacePhoto WatchKit App */;
+			targetProxy = 14AE0E9525E62297006485DA /* PBXContainerItemProxy */;
+		};
+		14AE0EA225E6229B006485DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14AE0E9E25E6229B006485DA /* WatchSpacePhoto WatchKit Extension */;
+			targetProxy = 14AE0EA125E6229B006485DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		149E8CDD25E5EA0300515DD0 /* Debug */ = {
@@ -269,7 +588,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SpacePhoto SUI/Preview Content\"";
-				DEVELOPMENT_TEAM = BXSDXC45DP;
+				DEVELOPMENT_TEAM = 7AGVRFU5DF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SpacePhoto SUI/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -277,7 +596,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "augusto.SpacePhoto-SUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "augusto.SpacePhoto-SUI12";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +610,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SpacePhoto SUI/Preview Content\"";
-				DEVELOPMENT_TEAM = BXSDXC45DP;
+				DEVELOPMENT_TEAM = 7AGVRFU5DF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SpacePhoto SUI/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -299,10 +618,176 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "augusto.SpacePhoto-SUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "augusto.SpacePhoto-SUI12";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14AE0E7C25E621BB006485DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacSpacePhoto/MacSpacePhoto.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacSpacePhoto/Preview Content\"";
+				DEVELOPMENT_TEAM = BXSDXC45DP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacSpacePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = augusto.MacSpacePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		14AE0E7D25E621BB006485DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacSpacePhoto/MacSpacePhoto.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacSpacePhoto/Preview Content\"";
+				DEVELOPMENT_TEAM = BXSDXC45DP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacSpacePhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = augusto.MacSpacePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		14AE0EB525E6229F006485DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXSDXC45DP;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = augusto.WatchSpacePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		14AE0EB625E6229F006485DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXSDXC45DP;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = augusto.WatchSpacePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		14AE0EB825E6229F006485DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXSDXC45DP;
+				IBSC_MODULE = WatchSpacePhoto_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchSpacePhoto WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = augusto.WatchSpacePhoto.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		14AE0EB925E6229F006485DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXSDXC45DP;
+				IBSC_MODULE = WatchSpacePhoto_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchSpacePhoto WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = augusto.WatchSpacePhoto.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		14AE0EBB25E6229F006485DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchSpacePhoto WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BXSDXC45DP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WatchSpacePhoto WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = augusto.WatchSpacePhoto.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		14AE0EBC25E6229F006485DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchSpacePhoto WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BXSDXC45DP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WatchSpacePhoto WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = augusto.WatchSpacePhoto.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
 			};
 			name = Release;
 		};
@@ -323,6 +808,42 @@
 			buildConfigurations = (
 				149E8CE025E5EA0300515DD0 /* Debug */,
 				149E8CE125E5EA0300515DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE0E7B25E621BB006485DA /* Build configuration list for PBXNativeTarget "MacSpacePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE0E7C25E621BB006485DA /* Debug */,
+				14AE0E7D25E621BB006485DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE0EBD25E6229F006485DA /* Build configuration list for PBXNativeTarget "WatchSpacePhoto WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE0EBB25E6229F006485DA /* Debug */,
+				14AE0EBC25E6229F006485DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE0EBE25E6229F006485DA /* Build configuration list for PBXNativeTarget "WatchSpacePhoto WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE0EB825E6229F006485DA /* Debug */,
+				14AE0EB925E6229F006485DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE0EBF25E6229F006485DA /* Build configuration list for PBXNativeTarget "WatchSpacePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE0EB525E6229F006485DA /* Debug */,
+				14AE0EB625E6229F006485DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

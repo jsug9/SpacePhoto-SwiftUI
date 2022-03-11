@@ -1,15 +1,15 @@
 //
 //  ContentView.swift
-//  SpacePhoto SUI
+//  WatchSpacePhoto WatchKit Extension
 //
-//  Created by Augusto Galindo Alí on 23/02/21.
+//  Created by Augusto Galindo Alí on 24/02/21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, World!")
             .padding()
     }
 }

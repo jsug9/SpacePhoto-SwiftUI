@@ -11,7 +11,7 @@ import SwiftUI
 struct SpacePhoto_SUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChooseDate()
         }
     }
 }
