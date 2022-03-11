@@ -1,4 +1,4 @@
-# ToDo-SwiftUI
+# Space Photo SwiftUI
 
 > This app shows an stellar event on an specific date using Nasa's API.
 
